@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f7fd;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.1);
+    border-top: 6px solid #ffb6c1;
+}
+
+h2 {
+    text-align: center;
+    color: #004085;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #cce5ff;
+    border-radius: 8px;
+    background-color: #e6f2ff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #004085;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus {
+    border-color: #ffb6c1;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 182, 193, 0.6);
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#btnSave {
+    background-color: #0056b3;
+    color: white;
+}
+#btnSave:hover {
+    background-color: #004085;
+}
+
+#btnCancel {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #ffb6c1;
+    color: #5a1a24;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+.btn-edit:hover {
+    background-color: #ff99a8;
+}
+
+.btn-delete {
+    background-color: #d6336c;
+    color: white;
+    padding: 6px 12px;
+}
+.btn-delete:hover {
+    background-color: #a61e4d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #b8daff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fbff;
+}
+tr:hover {
+    background-color: #eef5fc;
+}

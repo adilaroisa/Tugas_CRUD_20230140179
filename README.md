@@ -15,6 +15,7 @@
 
 # Create berhasil di Tampilan
 ![PostTampilan.png](Screenshot/PostTampilan.png)
+![CreateBerhasilTampilan.png](Screenshot/CreateBerhasilTampilan.png)
 
 # Create gagal di Tampilan
 ![PostTampilanEror.png](Screenshot/PostTampilanEror.png)
